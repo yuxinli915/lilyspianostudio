@@ -1,0 +1,87 @@
+{
+    "main": {
+      "name":"Lily's Piano Studio",
+      "description":"Music is a universal language that challenges the mind, sparks the imagination, and brings joy to all of our lives every day! The core value of Lily's Piano Studio to provide students with professional tutoring while building self confidence, strong foundations, and a love for music! All areas of study are covered in all course types; Theory, Notation, Hand/Eye Coordination, Technical Development, Improvisation, Composition, and Performance. Students progress fast through their studies, and most importantly, they have fun! Lily is dedicated to her student’s music education, regardless of age or experience level. Join  today and experience the joy and adventure that music has to offer!",
+      "image":"head.png",
+      "bio":"Lily is a pianist, piano teacher, dedicated to the art musician, exploring all of its different perspectives. Born in China she began studying piano at the age of 6. Lily graduated with honors from Tianjin Conservatory Of Music (prof. Xiaoliang Lv), Tianjin, China. She continued her piano studies in the U.S. at the University of South Florida with prof. Eunmi Ko. With over 10 years of teaching, Lily is experienced not only in various examinations including RCM (The Royal Conservatory of Music), ABRSM (Associated Board of the Royal Schools of Music), SGECCM (Standard Grading Examination of the Central Conservatory of Music) and SGESCM (Standard Grading Examination of the Shanghai Conservatory of Music), but also in teaching across cultures and ages from China to North America, from age 4 to 75 in both Mandarian and English.",
+      "email": "denosali@gmail.com",
+      "phone": "204-951-0608",
+      "address":{
+        "street":"43 Beachgrove Crt",
+        "city":"Winnipeg",
+        "state":"MB",
+        "zip": "R3Y 0W6"
+      }
+    },
+
+    "resume":{
+      "education":[
+        {
+          "school":"University of South Florida",
+          "degree":"Masters of Music in Piano Performance",
+          "graduated":"May 2016"
+        },
+        {
+          "school":"Tianjin Conservatory Of Music",
+          "degree":"Bachelor of Music in Piano Performance",
+          "graduated":"May 2014"
+        }
+      ],
+      "work":[
+        {
+            "company":"Lily's Piano Studio",
+            "location": "Winnipeg, CA",
+            "title":"Owner",
+            "years":"Present"
+        },
+        {
+          "company":"Schimmel Music Center",
+          "location": "Shanghai, CN",
+          "title":"Director of Piano Department",
+          "years":"2017/04 - 2019/04"
+        },
+        {
+          "company":"U.S. Music & More Art School",
+          "location": "Tampa, US",
+          "title":"Senior Piano Teacher",
+          "years":"2015/02 - 2017/01"
+        },
+        {
+            "company":"Tianjin Baisi Art Center",
+            "location": "Tianjin, CN",
+            "title":"Piano Teacher",
+            "years":"2010/10 - 2012/06"
+        }
+      ]
+    },
+
+    "portfolio":{
+      "certificates": [
+        {
+          "title":"The Royal Conservatory of Music",
+          "image":"rcm.png"
+        },        
+        {
+          "title":"Associated Board of the Royal Schools of Music",
+          "image":"ABRSM.png"
+        },
+        {
+          "title":"Music Teachers National Association",
+          "image":"mtna.png"
+        },
+        {
+          "title":"Standard Grading Examination Committee of the Central Conservatory of Music",
+          "image":"CCM.png"
+        },
+        {
+          "title":"Juilliard International Musicians Association of North America",
+          "image":"Juilliard.png"
+        },
+        {
+          "title":"Top Piano Teacher of 2019 Los Angeles International Youth Music Open Competition",
+          "image":"LA.png"
+        }
+      ]
+    }
+  }
+  

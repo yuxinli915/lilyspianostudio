@@ -1,25 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import React, { Component } from "react";
+import Header from './components/Header';
+import About from './components/About';
+import Resume from './components/Resume';
+import Certificate from './components/Certificate';
+import Footer from './components/Footer';
+import Contact from './components/Contact';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+    state = { data: {} };
+
+    getData = () => fetch(`myData.json`).then(response => response.json());
+
+    componentDidMount = () => this.getData().then(data => this.setState({ data }));
+
+    render = () =>
+        <div className="App">
+            <Header data={this.state.data.main} />
+            <About data={this.state.data.main} />
+            <Resume data={this.state.data.resume} />
+            <Certificate data={this.state.data.portfolio} />
+            <Contact data={this.state.data.main} />
+            <Footer data={this.state.data.main} />
+
+        </div>
 }
 
 export default App;
