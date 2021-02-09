@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/lilyspianostudio/static/css/main.7d180cbf.chunk.css",
+    "main.js": "/lilyspianostudio/static/js/main.f0bb1fea.chunk.js",
+    "main.js.map": "/lilyspianostudio/static/js/main.f0bb1fea.chunk.js.map",
+    "runtime-main.js": "/lilyspianostudio/static/js/runtime-main.ac4b862b.js",
+    "runtime-main.js.map": "/lilyspianostudio/static/js/runtime-main.ac4b862b.js.map",
+    "static/js/2.64d2472a.chunk.js": "/lilyspianostudio/static/js/2.64d2472a.chunk.js",
+    "static/js/2.64d2472a.chunk.js.map": "/lilyspianostudio/static/js/2.64d2472a.chunk.js.map",
+    "static/js/3.8e628bdb.chunk.js": "/lilyspianostudio/static/js/3.8e628bdb.chunk.js",
+    "static/js/3.8e628bdb.chunk.js.map": "/lilyspianostudio/static/js/3.8e628bdb.chunk.js.map",
+    "index.html": "/lilyspianostudio/index.html",
+    "static/css/main.7d180cbf.chunk.css.map": "/lilyspianostudio/static/css/main.7d180cbf.chunk.css.map",
+    "static/js/2.64d2472a.chunk.js.LICENSE.txt": "/lilyspianostudio/static/js/2.64d2472a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ac4b862b.js",
+    "static/js/2.64d2472a.chunk.js",
+    "static/css/main.7d180cbf.chunk.css",
+    "static/js/main.f0bb1fea.chunk.js"
+  ]
+}

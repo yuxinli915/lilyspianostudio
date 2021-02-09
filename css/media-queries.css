@@ -1,0 +1,213 @@
+@media only screen and (max-width: 1280px) {
+  #about .row {
+    grid-template-columns: unset;
+    width: 70%;
+  }
+
+  #about .main-col > * {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #nav-wrap {
+    font: 12px "opensans-bold", sans-serif;
+    background: transparent !important;
+    letter-spacing: 1.5px;
+    width: auto;
+    position: fixed;
+    top: 0;
+    right: 0;
+  }
+  #nav-wrap > a {
+    width: 48px;
+    height: 48px;
+    text-align: left;
+    background-color: #cc5200;
+    position: relative;
+    border: none;
+    float: right;
+
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+
+    position: relative;
+    top: 0px;
+    right: 30px;
+  }
+
+  #nav-wrap > a:before,
+  #nav-wrap > a:after {
+    position: absolute;
+    border: 2px solid #fff;
+    top: 35%;
+    left: 25%;
+    right: 25%;
+    content: "";
+  }
+  #nav-wrap > a:after {
+    top: 60%;
+  }
+
+  /* toggle buttons */
+  #nav-wrap:not(:target) > a:first-of-type,
+  #nav-wrap:target > a:last-of-type {
+    display: block;
+  }
+
+  /* hide menu panel */
+  #nav-wrap ul#nav {
+    height: auto;
+    display: none;
+    clear: both;
+    width: auto;
+    float: right;
+
+    position: relative;
+    top: 12px;
+    right: 0;
+  }
+
+  /* display menu panels */
+  #nav-wrap:target > ul#nav {
+    display: block;
+    padding: 30px 20px 48px 20px;
+    background: #1f2024;
+    margin: 0 30px;
+    clear: both;
+  }
+
+  ul#nav li {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 4%;
+    text-align: left;
+    border-bottom: 1px solid #2d2e34;
+    border-bottom-style: dotted;
+  }
+
+  ul#nav li a {
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin: 12px 0;
+    line-height: 16px;
+    border: none;
+  }
+
+  header {
+    background-position: left;
+  }
+  header .banner-text {
+    padding-top: 15vh;
+  }
+  header .banner-text h1 {
+    font: 55px/1.1em "opensans-bold", sans-serif;
+  }
+  header .banner-text h3 {
+    font: 16px/1.9em "librebaskerville-regular", serif;
+    width: 85%;
+    line-height: 25px;
+  }
+
+  #about h2 {
+    font-size: 30px;
+  }
+
+  header .banner-text h3 {
+   width: 95%;
+ }
+
+ #about .row {
+   width: 95%;
+ }
+
+  #resume .education,
+  .work {
+    grid-template-columns: unset;
+  }
+
+  #resume h1 {
+    font-size: 25px;
+  }
+  #resume h3 {
+    font-size: 20px;
+  }
+  #resume .main-col {
+    text-align: center;
+  }
+
+  #portfolio .row #portfolio-wrapper {
+    grid-template-columns: 35% 35%;
+  }
+
+  .mapContainer {
+    height: 330px;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #nav-wrap ul#nav {
+    width: auto;
+    float: none;
+  }
+
+  header .banner-text {
+    padding-top: 10vh;
+  }
+
+  header .banner-text h1 {
+    font-size: 35px;
+  }
+
+
+
+  .mapContainer {
+    height: 230px;
+  }
+}
+
+@media only screen and (max-width: 421px) {
+  #resume .main-col span {
+    display: none;
+  }
+  #resume .date {
+    display: block;
+  }
+
+  #resume h3 {
+    font-size: 25px;
+    margin: 5px;
+  }
+
+  #resume .header-col {
+    margin-bottom: 10px;
+  }
+  #resume .location {
+    display: block;
+    font-size: 15px;
+  }
+  #resume .info {
+    font-size: 19px;
+  }
+  #portfolio .row #portfolio-wrapper {
+    grid-template-columns: unset;
+  }
+}
+
+@media only screen and (max-width: 385px) {
+  header .banner-text {
+    padding-top: 7vh;
+  }
+
+  header .banner-text h3 {
+    width: 98%;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 385px) {
+}
